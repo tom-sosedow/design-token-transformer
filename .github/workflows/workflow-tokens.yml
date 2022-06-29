@@ -20,6 +20,6 @@ jobs:
         # change tokens here (and in line 32) if you want to use a differently named folder 
         run: 'mkdir -p tokens'
       - name: echo json
-        run: 'echo "field: ${{ github.event.client_payload.tokens }}'"
+        run: 'echo "field: ${{ github.event.client_payload.tokens }}"'
      
      
